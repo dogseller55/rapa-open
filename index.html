@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>여호와께서 세우시는 인생 | 라파, 몸 편한 케어 개업예배</title>
+  <meta property="og:type"         content="article"/>
+  <meta property="og:site_name"    content="라파, 몸 편한 케어"/>
+  <meta property="og:title"        content="여호와께서 세우시는 인생"/>
+  <meta property="og:description"  content="라파, 몸 편한 케어 개업예배 | 차경일 담임목사님 | 시편 127-128편"/>
+  <meta property="og:image"        content="https://dogseller55.github.io/rapa-open/thumbnail.png"/>
+  <meta property="og:image:width"  content="1200"/>
+  <meta property="og:image:height" content="630"/>
+  <meta property="og:url"          content="https://dogseller55.github.io/rapa-open/"/>
+  <meta property="og:locale"       content="ko_KR"/>
+  <meta name="twitter:card"        content="summary_large_image"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@300;400;600;700;900&family=Noto+Sans+KR:wght@300;400;500&family=Cormorant+Garamond:ital,wght@0,400;1,400&display=swap" rel="stylesheet"/>
+  <style>
+    :root{
+      --paper:#faf8f4; --paper2:#f2ede4;
+      --ink:#201c18; --ink-soft:#4a4540; --ink-muted:#8a8480; --ink-dim:#b8b2aa;
+      --sepia:#8b6b3d; --sepia-dim:rgba(139,107,61,.11); --sepia-line:rgba(139,107,61,.26);
+      --rule:#e2dbd0;
+      --serif:"Noto Serif KR","Georgia",serif;
+      --sans:"Noto Sans KR",sans-serif;
+      --italic:"Cormorant Garamond",serif;
+    }
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+    html{scroll-behavior:smooth}
+    body{background:var(--paper);color:var(--ink);font-family:var(--serif);line-height:1.95;font-size:17px;min-height:100vh}
+    .page{max-width:680px;margin:0 auto;padding:0 28px 100px}
+
+    /* 헤더 */
+    header{padding:68px 0 44px;border-bottom:1px solid var(--rule);margin-bottom:48px}
+    .site-label{display:inline-flex;align-items:center;gap:8px;font-family:var(--sans);font-size:11px;font-weight:500;letter-spacing:.22em;text-transform:uppercase;color:var(--sepia);margin-bottom:8px}
+    .site-label::before{content:"";display:inline-block;width:18px;height:1px;background:var(--sepia)}
+    .article-title{font-family:var(--serif);font-size:clamp(2rem,5vw,2.85rem);font-weight:900;line-height:1.25;letter-spacing:-.02em;color:var(--ink);margin:18px 0 14px}
+    .article-title em{font-style:italic;color:var(--sepia)}
+    .article-meta{font-family:var(--sans);font-size:13px;font-weight:300;color:var(--ink-muted);letter-spacing:.05em;line-height:1.8}
+    .article-meta strong{font-weight:500;color:var(--ink-soft)}
+
+    /* 섹션 이미지 */
+    .section-img{margin:32px 0;border-radius:3px;overflow:hidden;border:1px solid var(--rule)}
+    .section-img img{width:100%;display:block;height:auto}
+
+    /* 본문 */
+    .body-text{font-size:clamp(1rem,2vw,1.05rem);line-height:2.05;color:var(--ink-soft);margin-bottom:20px}
+    .body-text:last-child{margin-bottom:0}
+
+    /* 소제목 */
+    .section-title{font-family:var(--serif);font-size:clamp(1.15rem,2.5vw,1.38rem);font-weight:700;color:var(--ink);margin:50px 0 16px;padding-top:8px;border-top:2px solid var(--ink);line-height:1.4}
+    .section-label{display:block;font-family:var(--sans);font-size:10px;font-weight:500;letter-spacing:.2em;text-transform:uppercase;color:var(--sepia);margin-bottom:5px}
+
+    /* 성경구절 */
+    .scripture{border-left:3px solid var(--sepia);background:var(--sepia-dim);padding:16px 22px;margin:24px 0;border-radius:0 3px 3px 0}
+    .scripture p{font-family:var(--serif);font-size:clamp(.98rem,2vw,1.06rem);font-weight:600;font-style:italic;line-height:1.88;color:var(--ink)}
+    .scripture cite{display:block;margin-top:7px;font-family:var(--sans);font-size:11.5px;font-weight:400;font-style:normal;letter-spacing:.1em;color:var(--sepia)}
+
+    /* 강조 */
+    .emphasis-block{text-align:center;padding:32px 0;margin:28px 0;border-top:1px solid var(--rule);border-bottom:1px solid var(--rule)}
+    .emphasis-text{font-family:var(--serif);font-size:clamp(1.08rem,2.5vw,1.42rem);font-weight:700;color:var(--sepia);line-height:1.55}
+    .emphasis-sub{margin-top:9px;font-family:var(--italic);font-size:clamp(.97rem,2vw,1.1rem);font-style:italic;color:var(--ink-muted);line-height:1.72}
+
+    /* 콜아웃 */
+    .callout{background:var(--paper2);border:1px solid var(--rule);padding:18px 22px;margin:22px 0;border-radius:2px}
+    .callout-label{font-family:var(--sans);font-size:10px;font-weight:500;letter-spacing:.18em;text-transform:uppercase;color:var(--sepia);margin-bottom:7px}
+    .callout p{font-size:clamp(.95rem,2vw,1.03rem);line-height:2;color:var(--ink-soft)}
+
+    /* 복 아이템 */
+    .bless-item{padding:18px 0;border-bottom:1px solid var(--rule)}
+    .bless-item:last-child{border-bottom:none}
+    .bless-label{font-family:var(--sans);font-size:11px;font-weight:500;letter-spacing:.15em;text-transform:uppercase;color:var(--sepia);margin-bottom:7px}
+    .bless-item p{font-size:clamp(.96rem,2vw,1.04rem);line-height:2;color:var(--ink-soft)}
+    .bless-item .verse-inline{font-style:italic;color:var(--ink-muted);margin-bottom:12px;display:block}
+
+    /* 구분 */
+    .section-divider{display:flex;align-items:center;gap:14px;margin:40px 0 0;opacity:.38}
+    .section-divider::before,.section-divider::after{content:"";flex:1;height:1px;background:var(--sepia)}
+    .section-divider span{font-family:var(--sans);font-size:10px;letter-spacing:.2em;color:var(--sepia);text-transform:uppercase}
+
+    /* 마무리 */
+    .final-box{background:var(--paper2);border:1px solid var(--sepia-line);padding:38px 34px;margin:52px 0 0;text-align:center;position:relative}
+    .final-box::before{content:"\201C";position:absolute;top:-18px;left:50%;transform:translateX(-50%);font-family:var(--italic);font-size:76px;color:var(--sepia);opacity:.16;line-height:1}
+    .final-title{font-family:var(--serif);font-size:clamp(1.12rem,2.5vw,1.4rem);font-weight:700;color:var(--ink);line-height:1.5;margin-bottom:22px}
+    .final-list{list-style:none;text-align:left;display:inline-block;margin:0 auto 26px}
+    .final-list li{font-family:var(--serif);font-size:clamp(.95rem,2vw,1.03rem);line-height:1.85;color:var(--ink-soft);padding:4px 0 4px 20px;position:relative}
+    .final-list li::before{content:"—";position:absolute;left:0;color:var(--sepia)}
+    .final-verse{font-family:var(--italic);font-size:clamp(.98rem,2vw,1.08rem);font-style:italic;color:var(--sepia);line-height:1.65;margin-top:22px;padding-top:18px;border-top:1px solid var(--rule)}
+
+    /* 푸터 */
+    footer{margin-top:68px;padding:28px 0;border-top:1px solid var(--rule);text-align:center}
+    .footer-name{font-family:var(--sans);font-size:13px;font-weight:500;letter-spacing:.25em;text-transform:uppercase;color:var(--sepia);margin-bottom:4px}
+    .footer-sub{font-family:var(--sans);font-size:12px;color:var(--ink-dim);letter-spacing:.06em}
+
+    .hl{color:var(--sepia);font-weight:600}
+    em.it{font-family:var(--italic);font-size:1.04em;font-style:italic;color:var(--ink-soft)}
+    .fade{opacity:0;transform:translateY(14px);transition:opacity .65s ease,transform .65s ease}
+    .fade.on{opacity:1;transform:none}
+    @media(max-width:600px){.page{padding:0 20px 80px}header{padding:46px 0 34px}.final-box{padding:26px 18px}}
+  </style>
+</head>
+<body>
+<div class="page">
+
+<!-- ====== 헤더 ====== -->
+<header>
+  <div class="site-label">라파, 몸 편한 케어 &nbsp;개업예배 설교</div>
+  <h1 class="article-title">여호와께서<br><em>세우시는 인생</em></h1>
+  <div class="article-meta">
+    본문: 시편 127편 · 128편 &nbsp;/&nbsp; 참고: 학개 1:2–9<br>
+    <strong>차경일 담임목사님</strong> &nbsp;|&nbsp; 2026년 5월 7일
+  </div>
+</header>
+
+<!-- 이미지 1: 집들 실루엣 -->
+<div class="section-img fade">
+  <svg viewBox="0 0 680 130" xmlns="http://www.w3.org/2000/svg">
+  <rect width="680" height="130" fill="#f2ede4"/>
+  <line x1="20" y1="108" x2="660" y2="108" stroke="#c4b8a4" stroke-width="1"/>
+  <!-- 작은 집 L -->
+  <rect x="40" y="85" width="52" height="24" fill="none" stroke="#8b6b3d" stroke-width="1.4" opacity=".65"/>
+  <polyline points="40,85 66,61 92,85" fill="none" stroke="#8b6b3d" stroke-width="1.4" opacity=".65"/>
+  <!-- 중간 집 L -->
+  <rect x="128" y="74" width="72" height="34" fill="none" stroke="#8b6b3d" stroke-width="1.6" opacity=".8"/>
+  <polyline points="128,74 164,46 200,74" fill="none" stroke="#8b6b3d" stroke-width="1.6" opacity=".8"/>
+  <rect x="176" y="55" width="9" height="17" fill="none" stroke="#8b6b3d" stroke-width="1" opacity=".8"/>
+  <!-- 큰 집 C -->
+  <rect x="267" y="52" width="146" height="56" fill="none" stroke="#8b6b3d" stroke-width="2"/>
+  <polyline points="267,52 340,16 413,52" fill="none" stroke="#8b6b3d" stroke-width="2"/>
+  <rect x="326" y="75" width="28" height="34" rx="14" ry="0" fill="none" stroke="#8b6b3d" stroke-width="1.6"/>
+  <rect x="280" y="64" width="22" height="18" fill="none" stroke="#8b6b3d" stroke-width="1.1"/>
+  <line x1="291" y1="64" x2="291" y2="82" stroke="#8b6b3d" stroke-width=".7"/>
+  <line x1="280" y1="73" x2="302" y2="73" stroke="#8b6b3d" stroke-width=".7"/>
+  <rect x="378" y="64" width="22" height="18" fill="none" stroke="#8b6b3d" stroke-width="1.1"/>
+  <line x1="389" y1="64" x2="389" y2="82" stroke="#8b6b3d" stroke-width=".7"/>
+  <line x1="378" y1="73" x2="400" y2="73" stroke="#8b6b3d" stroke-width=".7"/>
+  <rect x="376" y="28" width="12" height="22" fill="none" stroke="#8b6b3d" stroke-width="1.5"/>
+  <!-- 중간 집 R -->
+  <rect x="454" y="74" width="72" height="34" fill="none" stroke="#8b6b3d" stroke-width="1.6" opacity=".8"/>
+  <polyline points="454,74 490,46 526,74" fill="none" stroke="#8b6b3d" stroke-width="1.6" opacity=".8"/>
+  <!-- 작은 집 R -->
+  <rect x="563" y="85" width="52" height="24" fill="none" stroke="#8b6b3d" stroke-width="1.4" opacity=".65"/>
+  <polyline points="563,85 589,61 615,85" fill="none" stroke="#8b6b3d" stroke-width="1.4" opacity=".65"/>
+  <!-- 별 장식 -->
+  <circle cx="38" cy="30" r="1.5" fill="#8b6b3d" opacity=".2"/>
+  <circle cx="645" cy="24" r="1.8" fill="#8b6b3d" opacity=".18"/>
+  <circle cx="340" cy="6" r="2" fill="#8b6b3d" opacity=".18"/>
+</svg>
+</div>
+
+<!-- ====== 들어가며 ====== -->
+<div class="fade">
+  <p class="body-text">오늘 본문 시편 127편에서 <span class="hl">'집'</span>이라는 단어는 단순한 건축물이 아닙니다. 인생이라는 집, 삶이라는 집, 사업체라는 집, 우리 가정이라는 집 — 우리 삶의 총칭을 시편의 저자는 이 한 단어에 담았습니다.</p>
+</div>
+
+<!-- ====== 01 ====== -->
+<div class="fade">
+  <h2 class="section-title">
+    <span class="section-label">첫 번째</span>
+    하나님 없이 세우는 인생의 끝
+  </h2>
+  <div class="scripture">
+    <p>"여호와께서 집을 세우지 아니하시면 세우는 자의 수고가 헛되며 여호와께서 성을 지키지 아니하시면 파숫꾼의 경성함이 허사로다"</p>
+    <cite>시편 127:1 (개역한글)</cite>
+  </div>
+  <p class="body-text">이 본문에 등장하는 사람은 <span class="hl">게으른 사람이 아닙니다.</span> 굉장히 계획적이고, 근면 성실하고, 누구보다도 자기 삶에 최선을 다했던 사람입니다.</p>
+  <div class="scripture">
+    <p>"너희가 일찍이 일어나고 늦게 누우며 수고의 떡을 먹음이 헛되도다 그러므로 여호와께서 그 사랑하시는 자에게는 잠을 주시는도다"</p>
+    <cite>시편 127:2 (개역한글)</cite>
+  </div>
+  <p class="body-text">수고의 떡을 먹으면 만족감이 있어야 합니다. 그런데 너무나 안타깝게도, 그 수고의 떡을 먹음이 헛됩니다. 애쓰고 힘썼는데, 돌아보니 그 애씀이 다 어디로 갔나 하는 어려움을 당할 수 있습니다.</p>
+  <div class="emphasis-block">
+    <p class="emphasis-text">이유는 단 하나입니다.</p>
+    <p class="emphasis-sub">삶의 우선순위 첫 번째를 하나님께 두지 않으면,<br>사람이 아무리 근면 성실하고 노력해도<br>결국에는 그 마지막이 헛된 곳으로 나아갈 수밖에 없습니다.</p>
+  </div>
+</div>
+
+<!-- 이미지 2: 황무한 성전 기둥 -->
+<div class="section-img fade">
+  <svg viewBox="0 0 680 118" xmlns="http://www.w3.org/2000/svg">
+  <rect width="680" height="118" fill="#f2ede4"/>
+  <line x1="0" y1="100" x2="680" y2="100" stroke="#c4b8a4" stroke-width="1"/>
+  <!-- 기둥 1: 온전한 -->
+  <g transform="translate(160,0)">
+    <rect x="-14" y="92" width="28" height="8" fill="none" stroke="#8b6b3d" stroke-width="1.5"/>
+    <rect x="-8" y="28" width="16" height="64" fill="none" stroke="#8b6b3d" stroke-width="1.5"/>
+    <rect x="-12" y="20" width="24" height="8" fill="none" stroke="#8b6b3d" stroke-width="1.5"/>
+    <line x1="-2" y1="28" x2="-2" y2="92" stroke="#8b6b3d" stroke-width=".6" stroke-dasharray="3,4" opacity=".35"/>
+    <line x1="3" y1="28" x2="3" y2="92" stroke="#8b6b3d" stroke-width=".6" stroke-dasharray="3,4" opacity=".35"/>
+  </g>
+  <!-- 기둥 2: 부러진 (중앙) -->
+  <g transform="translate(340,0)">
+    <rect x="-14" y="92" width="28" height="8" fill="none" stroke="#8b6b3d" stroke-width="1.5"/>
+    <rect x="-8" y="56" width="16" height="36" fill="none" stroke="#8b6b3d" stroke-width="1.5"/>
+    <g transform="translate(22,26) rotate(38)">
+      <rect x="-8" y="-32" width="16" height="40" fill="none" stroke="#8b6b3d" stroke-width="1.4" opacity=".7"/>
+      <rect x="-12" y="-40" width="24" height="8" fill="none" stroke="#8b6b3d" stroke-width="1.4" opacity=".7"/>
+    </g>
+    <line x1="-5" y1="48" x2="14" y2="58" stroke="#8b6b3d" stroke-width="1" opacity=".5"/>
+    <line x1="6" y1="44" x2="-9" y2="56" stroke="#8b6b3d" stroke-width="1" opacity=".5"/>
+    <line x1="-3" y1="72" x2="4" y2="82" stroke="#8b6b3d" stroke-width=".8" opacity=".45"/>
+  </g>
+  <!-- 기둥 3: 기울어진 -->
+  <g transform="translate(520,0)">
+    <rect x="-14" y="92" width="28" height="8" fill="none" stroke="#8b6b3d" stroke-width="1.5"/>
+    <g transform="rotate(-9,0,92)">
+      <rect x="-8" y="28" width="16" height="64" fill="none" stroke="#8b6b3d" stroke-width="1.5" opacity=".8"/>
+      <rect x="-12" y="20" width="24" height="8" fill="none" stroke="#8b6b3d" stroke-width="1.5" opacity=".8"/>
+    </g>
+    <line x1="-2" y1="58" x2="4" y2="70" stroke="#8b6b3d" stroke-width=".8" opacity=".45"/>
+    <line x1="2" y1="76" x2="-5" y2="84" stroke="#8b6b3d" stroke-width=".8" opacity=".45"/>
+  </g>
+  <!-- 돌조각들 -->
+  <ellipse cx="256" cy="103" rx="12" ry="3.5" fill="none" stroke="#8b6b3d" stroke-width="1" opacity=".35"/>
+  <ellipse cx="278" cy="104" rx="7" ry="2.5" fill="none" stroke="#8b6b3d" stroke-width="1" opacity=".3"/>
+  <ellipse cx="430" cy="102" rx="10" ry="3" fill="none" stroke="#8b6b3d" stroke-width="1" opacity=".35"/>
+  <ellipse cx="448" cy="104" rx="6" ry="2.5" fill="none" stroke="#8b6b3d" stroke-width="1" opacity=".28"/>
+</svg>
+</div>
+
+<!-- ====== 02 ====== -->
+<div class="fade">
+  <h2 class="section-title">
+    <span class="section-label">두 번째</span>
+    우선순위가 바뀌었을 때 — 학개서의 교훈
+  </h2>
+  <div class="callout">
+    <div class="callout-label">배경</div>
+    <p>이스라엘 백성이 70년 바벨론 포로 생활 후 고국으로 귀환합니다. 돌아오면서 다짐했습니다. <span class="hl">"이제 정신 바짝 차리고, 제1 우선순위는 하나님께 둘 거야."</span> 그런데 막상 돌아와 보니 당장 오늘 밤 잘 집도 없었습니다. 현실을 생각하다 보니 어느새 우선순위가 바뀌었습니다.</p>
+  </div>
+  <p class="body-text"><em class="it">"하긴 할 건데, 지금 상황이 너무 급박하니까 일단 최소한의 안정만 되면 하나님의 집을 지을 거야."</em></p>
+  <div class="scripture">
+    <p>"만군의 여호와가 말하여 이르노라 이 백성이 말하기를 여호와의 전을 건축할 시기가 이르지 아니하였다 하느니라"</p>
+    <cite>학개 1:2 (개역한글)</cite>
+  </div>
+  <div class="scripture">
+    <p>"이 전이 황무하였거늘 너희가 이때에 판벽한 집에 거하는 것이 가하냐"</p>
+    <cite>학개 1:4 (개역한글)</cite>
+  </div>
+  <div class="scripture">
+    <p>"너희가 많이 뿌릴지라도 수입이 적으며 먹어도 배부르지 못하며 마셔도 흡족하지 못하며 입어도 따뜻하지 못하며 일꾼이 삯을 받아도 그것을 구멍 뚫린 전대에 넣음이 되었느니라"</p>
+    <cite>학개 1:6 (개역한글)</cite>
+  </div>
+  <p class="body-text">벌었는데 돌아보니 다 없어졌고, 먹었는데 여전히 갈급했습니다. 왜 그랬겠습니까.</p>
+  <div class="scripture">
+    <p>"너희가 많은 것을 바랐으나 도리어 적었고 너희가 그것을 집으로 가져갔으나 내가 불어버렸느니라 나 만군의 여호와가 말하노라 이것이 무슨 연고이뇨 내 집은 황무하였으되 너희는 각각 자기 집을 위하여 빨랐음이니라"</p>
+    <cite>학개 1:9 (개역한글)</cite>
+  </div>
+  <div class="emphasis-block">
+    <p class="emphasis-text">누가 불어버렸느니라? — <em style="font-style:italic;">내가 불어버렸느니라.</em></p>
+    <p class="emphasis-sub">이유는 하나, 정말 중요한 삶의 우선순위를 뼛속까지 알려주기 위해서,<br>남은 인생은 진짜 행복한 인생이 되게 하기 위해서입니다.</p>
+  </div>
+  <div class="scripture">
+    <p>"너희는 산에 올라가서 나무를 가져다가 전을 건축하라 그리하면 내가 그것으로 인하여 기뻐하고 또 영광을 얻으리라 나 여호와가 말하였느니라"</p>
+    <cite>학개 1:8 (개역한글)</cite>
+  </div>
+  <p class="body-text">삶의 우선순위를 하나님과의 믿음의 관계를 첫 번째로, <span class="hl">그 어떤 것과도 바꿀 수 없는 무조건적인 첫 번째로 하라</span>는 것입니다.</p>
+</div>
+
+<!-- 이미지 3: 달과 별 -->
+<div class="section-img fade">
+  <svg viewBox="0 0 680 105" xmlns="http://www.w3.org/2000/svg">
+  <rect width="680" height="105" fill="#f2ede4"/>
+  <!-- 초승달 -->
+  <g transform="translate(510,52)">
+    <path d="M0,-38 C22,-28 32,-8 27,12 C22,32 6,44 -8,44 C12,36 22,20 20,4 C18,-16 6,-36 0,-38Z"
+          fill="none" stroke="#8b6b3d" stroke-width="1.8"/>
+    <circle cx="10" cy="-4" r="4" fill="none" stroke="#8b6b3d" stroke-width=".7" opacity=".28"/>
+    <circle cx="19" cy="16" r="2.5" fill="none" stroke="#8b6b3d" stroke-width=".6" opacity=".22"/>
+  </g>
+  <!-- 큰 별 L -->
+  <g transform="translate(130,38)" opacity=".55">
+    <line x1="0" y1="-10" x2="0" y2="10" stroke="#8b6b3d" stroke-width="1.2"/>
+    <line x1="-10" y1="0" x2="10" y2="0" stroke="#8b6b3d" stroke-width="1.2"/>
+    <line x1="-7" y1="-7" x2="7" y2="7" stroke="#8b6b3d" stroke-width=".8"/>
+    <line x1="7" y1="-7" x2="-7" y2="7" stroke="#8b6b3d" stroke-width=".8"/>
+  </g>
+  <!-- 중간 별 -->
+  <g transform="translate(285,28)" opacity=".45">
+    <line x1="0" y1="-7" x2="0" y2="7" stroke="#8b6b3d" stroke-width="1"/>
+    <line x1="-7" y1="0" x2="7" y2="0" stroke="#8b6b3d" stroke-width="1"/>
+    <line x1="-5" y1="-5" x2="5" y2="5" stroke="#8b6b3d" stroke-width=".7"/>
+    <line x1="5" y1="-5" x2="-5" y2="5" stroke="#8b6b3d" stroke-width=".7"/>
+  </g>
+  <!-- 중간 별 2 -->
+  <g transform="translate(400,55)" opacity=".38">
+    <line x1="0" y1="-6" x2="0" y2="6" stroke="#8b6b3d" stroke-width=".9"/>
+    <line x1="-6" y1="0" x2="6" y2="0" stroke="#8b6b3d" stroke-width=".9"/>
+    <line x1="-4" y1="-4" x2="4" y2="4" stroke="#8b6b3d" stroke-width=".6"/>
+    <line x1="4" y1="-4" x2="-4" y2="4" stroke="#8b6b3d" stroke-width=".6"/>
+  </g>
+  <!-- 작은 별들 -->
+  <circle cx="58" cy="60" r="1.5" fill="#8b6b3d" opacity=".38"/>
+  <circle cx="192" cy="48" r="2" fill="#8b6b3d" opacity=".32"/>
+  <circle cx="233" cy="70" r="1.2" fill="#8b6b3d" opacity=".28"/>
+  <circle cx="358" cy="38" r="1.8" fill="#8b6b3d" opacity=".35"/>
+  <circle cx="455" cy="62" r="1.3" fill="#8b6b3d" opacity=".28"/>
+  <circle cx="548" cy="28" r="1.4" fill="#8b6b3d" opacity=".32"/>
+  <circle cx="622" cy="66" r="1.7" fill="#8b6b3d" opacity=".28"/>
+  <circle cx="652" cy="38" r="1" fill="#8b6b3d" opacity=".32"/>
+  <circle cx="78" cy="30" r="1.2" fill="#8b6b3d" opacity=".28"/>
+  <line x1="0" y1="90" x2="680" y2="90" stroke="#c4b8a4" stroke-width=".6" stroke-dasharray="5,9"/>
+</svg>
+</div>
+
+<!-- ====== 03 ====== -->
+<div class="fade">
+  <h2 class="section-title">
+    <span class="section-label">세 번째</span>
+    대반전 — 잠을 주시는 하나님
+  </h2>
+  <p class="body-text">이것을 깨닫고 하나님의 말씀대로 살려고 하는 인생에게 하나님은 <span class="hl">대반전을 시키십니다.</span></p>
+  <div class="bless-item">
+    <div class="bless-label">첫 번째 의미 — 절대적인 평안</div>
+    <p>악착같이 계획하고 지키려고 했을 때는 늘 조급했고 불안했고 걱정과 염려가 있었는데, 정말 하나님께 맡기고 말씀대로 순종하는 삶을 살 때에는 <span class="hl">이 세상 그 누구도 빼앗아 갈 수 없는 절대적인 평화</span>를 하나님이 주십니다. 그냥 다리 쭉 뻗고 자게 하겠다. 그 평안이 하나님의 약속입니다.</p>
+  </div>
+  <div class="bless-item">
+    <div class="bless-label">두 번째 의미 — 하나님의 주권</div>
+    <p>잠자면 도둑도 못 막고, 사업에 대한 구상도 못 합니다. <span class="hl">아무것도 할 수 없는 순간이 잠자는 시간입니다.</span> 하나님께 인생을 맡기고 순종하면, 아무것도 할 수 없는 잠자는 시간까지 하나님인 내가 너의 인생과 가정과 자녀와 사업체를 지키고 끌어가겠다고 약속하십니다. 네가 잠자리에 들어 잠을 자는 그 시간에도 하나님이 이 사업장에, 이 가정에 복을 주고 지킬 것입니다.</p>
+  </div>
+</div>
+
+<!-- 이미지 4: 포도나무 + 올리브 -->
+<div class="section-img fade">
+  <svg viewBox="0 0 680 168" xmlns="http://www.w3.org/2000/svg">
+  <rect width="680" height="168" fill="#f2ede4"/>
+  <line x1="0" y1="145" x2="680" y2="145" stroke="#c4b8a4" stroke-width="1"/>
+  <!-- 중앙 구분 -->
+  <line x1="340" y1="28" x2="340" y2="145" stroke="#c4b8a4" stroke-width=".8" stroke-dasharray="4,7"/>
+  <!-- ── 포도나무 (왼쪽) ── -->
+  <g transform="translate(160,0)">
+    <path d="M0,145 C0,118 -8,96 -4,76 C2,54 12,44 6,28" fill="none" stroke="#8b6b3d" stroke-width="2.5"/>
+    <path d="M0,104 C-28,94 -50,78 -46,62" fill="none" stroke="#8b6b3d" stroke-width="1.5"/>
+    <path d="M-2,82 C22,72 42,68 40,52" fill="none" stroke="#8b6b3d" stroke-width="1.5"/>
+    <path d="M3,58 C-18,48 -34,42 -30,30" fill="none" stroke="#8b6b3d" stroke-width="1.2"/>
+    <path d="M4,42 C24,32 30,22 28,12" fill="none" stroke="#8b6b3d" stroke-width="1.2"/>
+    <!-- 잎 -->
+    <ellipse cx="-48" cy="60" rx="13" ry="8" transform="rotate(-22,-48,60)" fill="none" stroke="#8b6b3d" stroke-width="1.2"/>
+    <ellipse cx="41" cy="50" rx="12" ry="8" transform="rotate(18,41,50)" fill="none" stroke="#8b6b3d" stroke-width="1.2"/>
+    <ellipse cx="-32" cy="28" rx="11" ry="7" transform="rotate(-28,-32,28)" fill="none" stroke="#8b6b3d" stroke-width="1.1"/>
+    <ellipse cx="26" cy="12" rx="10" ry="7" transform="rotate(22,26,12)" fill="none" stroke="#8b6b3d" stroke-width="1.1"/>
+    <!-- 포도송이 1 -->
+    <g transform="translate(-42,70)">
+      <circle cx="0" cy="0" r="4.5" fill="none" stroke="#8b6b3d" stroke-width="1"/>
+      <circle cx="9" cy="2" r="4.5" fill="none" stroke="#8b6b3d" stroke-width="1"/>
+      <circle cx="4.5" cy="9" r="4.5" fill="none" stroke="#8b6b3d" stroke-width="1"/>
+      <circle cx="-4" cy="11" r="4" fill="none" stroke="#8b6b3d" stroke-width="1"/>
+      <circle cx="12" cy="11" r="4" fill="none" stroke="#8b6b3d" stroke-width="1"/>
+      <circle cx="4" cy="18" r="3.5" fill="none" stroke="#8b6b3d" stroke-width="1"/>
+    </g>
+    <!-- 포도송이 2 -->
+    <g transform="translate(32,58)">
+      <circle cx="0" cy="0" r="4" fill="none" stroke="#8b6b3d" stroke-width="1"/>
+      <circle cx="8" cy="2" r="4" fill="none" stroke="#8b6b3d" stroke-width="1"/>
+      <circle cx="4" cy="9" r="4" fill="none" stroke="#8b6b3d" stroke-width="1"/>
+      <circle cx="11" cy="10" r="3.5" fill="none" stroke="#8b6b3d" stroke-width="1"/>
+    </g>
+  </g>
+  <!-- ── 올리브(감람) 나무 (오른쪽) ── -->
+  <g transform="translate(510,0)">
+    <path d="M0,145 C0,122 -2,104 0,78 C2,52 0,32 0,16" fill="none" stroke="#8b6b3d" stroke-width="2.5"/>
+    <path d="M0,104 C-26,88 -42,76 -52,65" fill="none" stroke="#8b6b3d" stroke-width="1.8"/>
+    <path d="M0,98 C26,82 42,72 50,60" fill="none" stroke="#8b6b3d" stroke-width="1.8"/>
+    <path d="M0,72 C-20,60 -36,52 -38,42" fill="none" stroke="#8b6b3d" stroke-width="1.5"/>
+    <path d="M0,68 C20,56 34,48 34,38" fill="none" stroke="#8b6b3d" stroke-width="1.5"/>
+    <path d="M0,46 C-14,36 -24,28 -22,18" fill="none" stroke="#8b6b3d" stroke-width="1.2"/>
+    <path d="M0,42 C14,32 22,24 20,14" fill="none" stroke="#8b6b3d" stroke-width="1.2"/>
+    <!-- 잎 (좁고 긴 타원) -->
+    <ellipse cx="-54" cy="62" rx="11" ry="4" transform="rotate(-28,-54,62)" fill="none" stroke="#8b6b3d" stroke-width="1.1"/>
+    <ellipse cx="-44" cy="57" rx="10" ry="3.5" transform="rotate(-18,-44,57)" fill="none" stroke="#8b6b3d" stroke-width="1.1"/>
+    <ellipse cx="52" cy="57" rx="11" ry="4" transform="rotate(28,52,57)" fill="none" stroke="#8b6b3d" stroke-width="1.1"/>
+    <ellipse cx="-40" cy="40" rx="10" ry="3.5" transform="rotate(-32,-40,40)" fill="none" stroke="#8b6b3d" stroke-width="1.1"/>
+    <ellipse cx="36" cy="36" rx="10" ry="3.5" transform="rotate(26,36,36)" fill="none" stroke="#8b6b3d" stroke-width="1.1"/>
+    <ellipse cx="-24" cy="16" rx="9" ry="3" transform="rotate(-22,-24,16)" fill="none" stroke="#8b6b3d" stroke-width="1"/>
+    <ellipse cx="22" cy="12" rx="9" ry="3" transform="rotate(20,22,12)" fill="none" stroke="#8b6b3d" stroke-width="1"/>
+    <ellipse cx="-4" cy="13" rx="8" ry="3" transform="rotate(-8,-4,13)" fill="none" stroke="#8b6b3d" stroke-width="1"/>
+    <ellipse cx="6" cy="8" rx="8" ry="3" transform="rotate(8,6,8)" fill="none" stroke="#8b6b3d" stroke-width="1"/>
+    <!-- 올리브 열매 -->
+    <ellipse cx="-52" cy="70" rx="3.5" ry="5.5" fill="none" stroke="#8b6b3d" stroke-width="1"/>
+    <ellipse cx="-44" cy="68" rx="3" ry="5" fill="none" stroke="#8b6b3d" stroke-width="1"/>
+    <ellipse cx="48" cy="67" rx="3.5" ry="5.5" fill="none" stroke="#8b6b3d" stroke-width="1"/>
+    <ellipse cx="-38" cy="46" rx="3" ry="5" fill="none" stroke="#8b6b3d" stroke-width="1"/>
+    <ellipse cx="34" cy="44" rx="3" ry="5" fill="none" stroke="#8b6b3d" stroke-width="1"/>
+  </g>
+</svg>
+</div>
+
+<!-- ====== 04 ====== -->
+<div class="fade">
+  <h2 class="section-title">
+    <span class="section-label">네 번째</span>
+    여호와께서 세우시는 인생의 복 — 시편 128편
+  </h2>
+  <p class="body-text">시편 127편이 하나님이 집을 세우지 않으면 인생이 어떻게 되는지를 보여준다면, <span class="hl">128편은 삶의 우선순위를 분명히 해서 여호와께서 집을 세우시면 그 남은 인생이 어떻게 펼쳐지는가를 보여줍니다.</span> 두 편은 짝꿍입니다.</p>
+  <div class="scripture">
+    <p>"여호와를 경외하며 그 도에 행하는 자마다 복이 있도다"</p>
+    <cite>시편 128:1 (개역한글)</cite>
+  </div>
+  <div class="section-divider"><span>복의 내용</span></div>
+  <div class="bless-item">
+    <div class="bless-label">① 사업의 복</div>
+    <span class="verse-inline">"네가 네 손이 수고한 대로 먹을 것이라 네가 복되고 형통하리로다" — 시편 128:2</span>
+    <p>예전에는 애써도 다 헛되게 날아갔습니다. 이제는 <span class="hl">애쓰면 애쓴 만큼 하나님이 다 거둬들일 수 있도록 지켜주십니다.</span></p>
+  </div>
+  <div class="bless-item">
+    <div class="bless-label">② 가정의 복</div>
+    <span class="verse-inline">"네 집 내실에 있는 네 아내는 결실한 포도나무 같으며 네 상에 둘린 자식은 어린 감람나무 같으리로다" — 시편 128:3</span>
+    <p>포도나무는 성경에서 풍성함과 기쁨을 상징합니다. 아내를 볼 때마다 가정에 <span class="hl">정말 풍성한 기쁨</span>이 있을 것입니다.</p>
+    <br>
+    <p>감람나무의 특징은 <span class="hl">끈질긴 생명력</span>입니다. 척박한 땅에도 뿌리를 내리며, 칼로 자르고 강한 불로 태워도 뿌리가 살아 있기 때문에 뿌리에서 완전히 새롭게 다시 자랍니다. 지금은 불로 태운 것 같고 칼로 난도질한 것처럼 방황하고 있는 기간인 것 같아도, <span class="hl">감람나무는 다 불타고 꺾어져도 그 뿌리에서 다시 완전히 새롭게 시작합니다.</span> 하나님께서 세워주시면, 한 인생이 이렇게 다시 살아날 수 있습니다.</p>
+  </div>
+  <div class="bless-item">
+    <div class="bless-label">③ 공동체로 확장되는 복</div>
+    <span class="verse-inline">"여호와께서 시온에서 네게 복을 주실지어다 너는 평생에 예루살렘의 복을 보며" — 시편 128:5</span>
+    <p>시온은 하나님의 영광이 머무는 장소, 예배드리는 장소입니다. <span class="hl">예배를 목숨 걸고 드리는 자에게</span> 하나님께서 이와 같은 복을 주십니다. 그리고 그 복은 이 사업체에 오고 가는 모든 사람에게 흘러갑니다. 단순히 육체만 치료하는 장소로 끝나는 게 아니라, <span class="hl">이 사업체를 통해 복음이 흘러가고, 이 복이 만나는 모든 사람에게 미칩니다.</span></p>
+    <br>
+    <p>이 믿음의 복이 이 대에서 끊어지지 않고 <span class="hl">대대로 다음 세대로 계속 흘러가도록</span> 은혜를 베풀어 주시겠다는 약속입니다.</p>
+  </div>
+</div>
+
+<!-- ====== 결론 ====== -->
+<div class="fade">
+  <div class="final-box">
+    <p class="final-title">이 엄청난 축복은<br>절대 자동으로 약속하지 않으셨습니다.</p>
+    <div class="scripture" style="text-align:left;margin-bottom:26px">
+      <p>"여호와를 경외하며 그 도에 행하는 자마다"</p>
+      <cite>시편 128:1 — 이것이 전제입니다</cite>
+    </div>
+    <ul class="final-list">
+      <li>먼저 개인이 복을 받고</li>
+      <li>애쓰고 노력하는 것마다 하나님이 복을 더하셔서 사업체가 복을 받고</li>
+      <li>사업의 복은 가정으로 이어지고</li>
+      <li>함께하는 공동체와 주변까지 이 은혜와 복이 흘러가는 인생</li>
+    </ul>
+    <div class="final-verse">
+      여호와께서 세우시는 그런 인생 —<br>
+      이것이 시편 127편과 128편이 함께 약속하는 복입니다.<br><br>
+      지금껏의 삶이 시편 127편 상반절 같은 모습이 조금 있었다면,<br>
+      이제는 하나님 안에서 시편 128편의 복을 누릴 수 있는<br>
+      라파, 몸 편한 케어가 되기를 바랍니다.
+    </div>
+  </div>
+</div>
+
+<!-- 푸터 -->
+<footer>
+  <div class="footer-name">라파, 몸 편한 케어</div>
+  <div class="footer-sub">여호와 라파 · 치유의 하나님과 함께하는 새로운 시작 · 2026년 5월 7일</div>
+</footer>
+
+</div>
+<script>
+  const obs=new IntersectionObserver(es=>{es.forEach(e=>{if(e.isIntersecting)e.target.classList.add("on")})},{threshold:.08,rootMargin:"0px 0px -40px 0px"});
+  document.querySelectorAll(".fade").forEach(el=>obs.observe(el));
+</script>
+</body>
+</html>
